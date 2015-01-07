@@ -14,8 +14,12 @@ public class KMeansLloydAlgo implements KMeansAlgo {
 	public List<Cluster> run(List<Double[]> data, KMeansConfig kmeansConfig) {
 		
 		if (startingCentroids == null) {
-			
+			// getting k random centroids
 		}
+		//1 assigning all point to cluster 
+		//2 calculating all new centroid 
+		//3 reassigning points to new centroid 
+		//4 repeating until the needed approximation
 		
 		return null;
 	}

@@ -10,7 +10,9 @@ public class KMeansSharpAlgo implements KMeansAlgo {
 
 	@Override
 	public List<Cluster> run(List<Double[]> data, KMeansConfig kmeansConfig) {
-		// TODO Auto-generated method stub
+		//1 calculating centroids with the D(x) probabilities, but every iteration we generate 3log(k) centroid
+		KMeansAlgo lloydKMeansAlgo = new KMeansLloydAlgo();
+		//2 assign calculated centroids to the Lloyd's algo to get clusters
 		return null;
 	}
 

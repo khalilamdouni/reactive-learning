@@ -10,9 +10,18 @@ import java.util.List;
  *
  */
 public class Canopy {
-	private List<Double[]> points = new ArrayList<Double[]>();
+	private Double[] center = null;
+ 	private List<Double[]> points = new ArrayList<Double[]>();
 	private boolean isLaunched = false;
 	
+	public Double[] getCenter() {
+		return center;
+	}
+
+	public void setCenter(Double[] center) {
+		this.center = center;
+	}
+
 	public List<Double[]> getPoints() {
 		return points;
 	}
